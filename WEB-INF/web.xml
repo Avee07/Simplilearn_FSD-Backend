@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>zumba</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>deleteTrainerSlotServlet</display-name>
+    <servlet-name>deleteTrainerSlotServlet</servlet-name>
+    <servlet-class>deleteTrainerSlotServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>deleteTrainerSlotServlet</servlet-name>
+    <url-pattern>/deleteTrainerSlotServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>addTrainerSlotServlet</display-name>
+    <servlet-name>addTrainerSlotServlet</servlet-name>
+    <servlet-class>addTrainerSlotServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addTrainerSlotServlet</servlet-name>
+    <url-pattern>/addTrainerSlotServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
